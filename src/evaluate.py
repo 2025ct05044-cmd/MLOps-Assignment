@@ -6,7 +6,11 @@ from pathlib import Path
 
 import joblib
 from sklearn.metrics import (
-    accuracy_score, precision_score, recall_score, f1_score, roc_auc_score,
+    accuracy_score,
+    f1_score,
+    precision_score,
+    recall_score,
+    roc_auc_score,
 )
 
 from src.data_preprocessing import load_dataset, split_features_target
@@ -29,7 +33,7 @@ def evaluate(model_path, data_path, output_path="reports/evaluation_metrics.json
         "recall": float(recall_score(y, predictions, zero_division=0)),
         "f1": float(f1_score(y, predictions, zero_division=0)),
         "roc_auc": float(roc_auc_score(y, probabilities)),
-        "rows_evaluated": int(len(y)),
+        "rows_evaluated": len(y),
     }
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)

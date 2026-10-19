@@ -6,7 +6,7 @@ from pathlib import Path
 
 import joblib
 import pandas as pd
-from sklearn.metrics import roc_auc_score, accuracy_score
+from sklearn.metrics import accuracy_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 
 from src.data_preprocessing import load_dataset, split_features_target
@@ -66,8 +66,8 @@ def train(data_path, model_dir="models", reports_dir="reports"):
         "selected_model": selected_name,
         "random_state": RANDOM_STATE,
         "selection_metric": "validation_roc_auc",
-        "training_rows": int(len(X_train_full)),
-        "test_rows": int(len(X_test)),
+        "training_rows": len(X_train_full),
+        "test_rows": len(X_test),
     }
 
     joblib.dump(selected, model_dir / "heart_disease_pipeline.joblib")

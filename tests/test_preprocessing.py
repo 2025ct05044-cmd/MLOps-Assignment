@@ -4,7 +4,10 @@ import pandas as pd
 import pytest
 
 from src.data_preprocessing import (
-    EXPECTED_COLUMNS, FEATURE_COLUMNS, load_dataset, split_features_target,
+    EXPECTED_COLUMNS,
+    FEATURE_COLUMNS,
+    load_dataset,
+    split_features_target,
 )
 
 

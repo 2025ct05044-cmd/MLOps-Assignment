@@ -1,6 +1,7 @@
 """Dataset loading and validation utilities for the heart disease project."""
 
 from pathlib import Path
+
 import pandas as pd
 
 TARGET_COLUMN = "target"

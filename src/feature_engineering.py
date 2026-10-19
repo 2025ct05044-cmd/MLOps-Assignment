@@ -1,11 +1,11 @@
 """Reusable preprocessing and estimator pipeline builders."""
 
 from sklearn.compose import ColumnTransformer
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
 
 NUMERIC_FEATURES = ["age", "trestbps", "chol", "thalach", "oldpeak"]
 CATEGORICAL_FEATURES = [
