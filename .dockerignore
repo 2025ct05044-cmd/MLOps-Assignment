@@ -1,0 +1,29 @@
+# Git and editor files
+.git/
+.gitignore
+.vscode/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local MLflow tracking data
+mlruns/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# Notebook files are not required by the prediction application
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db

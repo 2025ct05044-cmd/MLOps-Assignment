@@ -1,0 +1,9 @@
+{
+  "test_roc_auc": 0.9319196428571428,
+  "test_accuracy": 0.85,
+  "selected_model": "logistic_regression",
+  "random_state": 42,
+  "selection_metric": "validation_roc_auc",
+  "training_rows": 237,
+  "test_rows": 60
+}
