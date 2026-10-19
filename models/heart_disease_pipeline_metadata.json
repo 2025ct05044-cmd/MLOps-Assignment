@@ -1,0 +1,49 @@
+{
+  "model_name": "Random Forest",
+  "selection_metric": "mean 5-fold stratified CV ROC-AUC on training data",
+  "selection_score": 0.9081645021645022,
+  "best_parameters": {
+    "classifier__class_weight": null,
+    "classifier__max_depth": 8,
+    "classifier__min_samples_leaf": 2,
+    "classifier__min_samples_split": 5,
+    "classifier__n_estimators": 300
+  },
+  "input_features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "continuous_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak"
+  ],
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "target_mapping": {
+    "0": "No disease",
+    "1": "Disease"
+  },
+  "random_state": 42
+}
