@@ -1,0 +1,9 @@
+{
+  "selection_metric": "test_roc_auc",
+  "selected_model": "logistic_regression",
+  "run_id": "2e29f14283e24ce681d8b899a2052dbc",
+  "model_uri": "models:/m-843c00241c864cc7b1bf9ad15331578f",
+  "test_roc_auc": 0.9408482142857143,
+  "random_state": 42,
+  "experiment_name": "heart-disease-model-development"
+}
