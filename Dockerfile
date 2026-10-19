@@ -6,13 +6,13 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt \
-    && pip install --no-cache-dir fastapi uvicorn
+RUN python -m pip install --no-cache-dir --upgrade pip \
+    && python -m pip install --no-cache-dir -r requirements.txt \
+    && python -m pip install --no-cache-dir fastapi uvicorn
 
-COPY src/ ./src/
+COPY api/ ./api/
 COPY models/heart_disease_pipeline.joblib ./models/heart_disease_pipeline.joblib
 
 EXPOSE 8000
 
-CMD ["uvicorn", "src.api:app", "--host", "0.0.0.0", "--port", "8000"]\n
+CMD ["uvicorn", "api.app:app", "--host", "0.0.0.0", "--port", "8000"]
