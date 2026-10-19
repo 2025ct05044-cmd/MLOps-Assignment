@@ -1,0 +1,3 @@
+model,best_cv_roc_auc,best_parameters
+Random Forest,0.9081645021645022,"{""classifier__class_weight"": null, ""classifier__max_depth"": 8, ""classifier__min_samples_leaf"": 2, ""classifier__min_samples_split"": 5, ""classifier__n_estimators"": 300}"
+Logistic Regression,0.9027818847818849,"{""classifier__C"": 1.0, ""classifier__class_weight"": null, ""classifier__solver"": ""liblinear""}"
