@@ -1,0 +1,655 @@
+PS C:\Users\91620\MLOps-Assignment> Get-ChildItem -Recurse
+
+
+    Directory: C:\Users\91620\MLOps-Assignment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                .github
+d-----        10/19/2026  10:54 PM                api
+d-----        10/19/2026  10:54 PM                data
+d-----        10/19/2026  10:54 PM                deployment
+d-----        10/19/2026  10:54 PM                mlruns
+d-----        10/19/2026  10:54 PM                models
+d-----        10/19/2026  10:54 PM                Notebook
+d-----        10/19/2026  10:54 PM                reports
+d-----        10/19/2026  10:54 PM                screenshots
+d-----        10/19/2026  10:54 PM                src
+d-----        10/20/2026  12:15 AM                ss
+d-----        10/19/2026  10:54 PM                tests
+-a----        10/19/2026  10:54 PM            407 .dockerignore
+-a----        10/19/2026  10:54 PM              0 .gitignore
+-a----        10/19/2026  10:54 PM            499 Dockerfile
+-a----        10/20/2026  12:16 AM        1101824 mlflow.db
+-a----        10/19/2026  10:54 PM             39 README.md
+-a----        10/19/2026  11:05 PM            160 requirements.txt
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\.github
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                workflows
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\.github\workflows
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM           1246 ml_pipeline.yml
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\api
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM           2414 app.py
+-a----        10/19/2026  10:54 PM             61 __init__.py
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                processed
+d-----        10/19/2026  10:54 PM                raw
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\data\processed
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          12545 cleaned_heart_disease.csv
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\data\raw
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          12776 heart_disease.csv
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\deployment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  11:24 PM            414 deployment.yaml
+-a----        10/19/2026  10:54 PM              0 ingress.yaml
+-a----        10/19/2026  11:25 PM            184 service.yaml
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                1
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                07f5ecab373c4803bf1dd8c73e53ef40
+d-----        10/19/2026  10:54 PM                2e29f14283e24ce681d8b899a2052dbc
+d-----        10/19/2026  10:54 PM                34bfde4fa2594a039911e06711f39167
+d-----        10/19/2026  10:54 PM                477af0ad79af4f24a3010ae5161539c0
+d-----        10/19/2026  10:54 PM                51a72c6598544ba9adce22289e516662
+d-----        10/19/2026  10:54 PM                b7b80220d606471fa2967b1b514a89fb
+d-----        10/19/2026  10:54 PM                bdb506b5e5714005b7570c49f065fa24
+d-----        10/19/2026  10:54 PM                d666ac386a4d433f89984f75a64b6751
+d-----        10/19/2026  10:54 PM                models
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\07f5ecab373c4803bf1dd8c73e53ef40
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\07f5ecab373c4803bf1dd8c73e53ef40\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\07f5ecab373c4803bf1dd8c73e53ef40\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 logistic_regression_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\07f5ecab373c4803bf1dd8c73e53ef40\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          66380 logistic_regression_confusion_matrix.png
+-a----        10/19/2026  10:54 PM         104423 logistic_regression_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\2e29f14283e24ce681d8b899a2052dbc
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\2e29f14283e24ce681d8b899a2052dbc\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\2e29f14283e24ce681d8b899a2052dbc\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 logistic_regression_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\2e29f14283e24ce681d8b899a2052dbc\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          66380 logistic_regression_confusion_matrix.png
+-a----        10/19/2026  10:54 PM         104423 logistic_regression_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\34bfde4fa2594a039911e06711f39167
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\34bfde4fa2594a039911e06711f39167\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\34bfde4fa2594a039911e06711f39167\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 random_forest_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\34bfde4fa2594a039911e06711f39167\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          62046 random_forest_confusion_matrix.png
+-a----        10/19/2026  10:54 PM          99478 random_forest_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\477af0ad79af4f24a3010ae5161539c0
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\477af0ad79af4f24a3010ae5161539c0\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\477af0ad79af4f24a3010ae5161539c0\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 logistic_regression_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\477af0ad79af4f24a3010ae5161539c0\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          66380 logistic_regression_confusion_matrix.png
+-a----        10/19/2026  10:54 PM         104423 logistic_regression_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\51a72c6598544ba9adce22289e516662
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\51a72c6598544ba9adce22289e516662\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\51a72c6598544ba9adce22289e516662\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 random_forest_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\51a72c6598544ba9adce22289e516662\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          62046 random_forest_confusion_matrix.png
+-a----        10/19/2026  10:54 PM          99478 random_forest_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\b7b80220d606471fa2967b1b514a89fb
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\b7b80220d606471fa2967b1b514a89fb\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\b7b80220d606471fa2967b1b514a89fb\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 logistic_regression_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\b7b80220d606471fa2967b1b514a89fb\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          66380 logistic_regression_confusion_matrix.png
+-a----        10/19/2026  10:54 PM         104423 logistic_regression_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\bdb506b5e5714005b7570c49f065fa24
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\bdb506b5e5714005b7570c49f065fa24\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\bdb506b5e5714005b7570c49f065fa24\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 logistic_regression_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\bdb506b5e5714005b7570c49f065fa24\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          66380 logistic_regression_confusion_matrix.png
+-a----        10/19/2026  10:54 PM         104423 logistic_regression_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\d666ac386a4d433f89984f75a64b6751
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\d666ac386a4d433f89984f75a64b6751\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                environment
+d-----        10/19/2026  10:54 PM                plots
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\d666ac386a4d433f89984f75a64b6751\artifacts\environment
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            289 random_forest_environment.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\d666ac386a4d433f89984f75a64b6751\artifacts\plots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          62046 random_forest_confusion_matrix.png
+-a----        10/19/2026  10:54 PM          99478 random_forest_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                m-038201c416dc4d4e9a495c5648b72615
+d-----        10/19/2026  10:54 PM                m-4e5aa2661c154d2cb44be5cf0638bbfc
+d-----        10/19/2026  10:54 PM                m-7225864dd25c42c38ba9bc9dc6a0ecfe
+d-----        10/19/2026  10:54 PM                m-843c00241c864cc7b1bf9ad15331578f
+d-----        10/19/2026  10:54 PM                m-93cbef14f51a432ba13816dfb8b05947
+d-----        10/19/2026  10:54 PM                m-efab08737a7744e5bca6158ebf1db771
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-038201c416dc4d4e9a495c5648b72615
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-038201c416dc4d4e9a495c5648b72615\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            236 conda.yaml
+-a----        10/19/2026  10:54 PM            297 input_example.json
+-a----        10/19/2026  10:54 PM           1767 MLmodel
+-a----        10/19/2026  10:54 PM        1512962 model.pkl
+-a----        10/19/2026  10:54 PM            131 python_env.yaml
+-a----        10/19/2026  10:54 PM            106 requirements.txt
+-a----        10/19/2026  10:54 PM            843 serving_input_example.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-4e5aa2661c154d2cb44be5cf0638bbfc
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-4e5aa2661c154d2cb44be5cf0638bbfc\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            236 conda.yaml
+-a----        10/19/2026  10:54 PM            297 input_example.json
+-a----        10/19/2026  10:54 PM           1767 MLmodel
+-a----        10/19/2026  10:54 PM        1512962 model.pkl
+-a----        10/19/2026  10:54 PM            131 python_env.yaml
+-a----        10/19/2026  10:54 PM            106 requirements.txt
+-a----        10/19/2026  10:54 PM            843 serving_input_example.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-7225864dd25c42c38ba9bc9dc6a0ecfe
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-7225864dd25c42c38ba9bc9dc6a0ecfe\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            236 conda.yaml
+-a----        10/19/2026  10:54 PM            297 input_example.json
+-a----        10/19/2026  10:54 PM           1764 MLmodel
+-a----        10/19/2026  10:54 PM           3967 model.pkl
+-a----        10/19/2026  10:54 PM            131 python_env.yaml
+-a----        10/19/2026  10:54 PM             39 registered_model_meta
+-a----        10/19/2026  10:54 PM            106 requirements.txt
+-a----        10/19/2026  10:54 PM            843 serving_input_example.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-843c00241c864cc7b1bf9ad15331578f
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-843c00241c864cc7b1bf9ad15331578f\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            236 conda.yaml
+-a----        10/19/2026  10:54 PM            297 input_example.json
+-a----        10/19/2026  10:54 PM           1764 MLmodel
+-a----        10/19/2026  10:54 PM           3967 model.pkl
+-a----        10/19/2026  10:54 PM            131 python_env.yaml
+-a----        10/19/2026  10:54 PM             39 registered_model_meta
+-a----        10/19/2026  10:54 PM            106 requirements.txt
+-a----        10/19/2026  10:54 PM            843 serving_input_example.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-93cbef14f51a432ba13816dfb8b05947
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-93cbef14f51a432ba13816dfb8b05947\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            236 conda.yaml
+-a----        10/19/2026  10:54 PM            297 input_example.json
+-a----        10/19/2026  10:54 PM           1767 MLmodel
+-a----        10/19/2026  10:54 PM        1512962 model.pkl
+-a----        10/19/2026  10:54 PM            131 python_env.yaml
+-a----        10/19/2026  10:54 PM            106 requirements.txt
+-a----        10/19/2026  10:54 PM            843 serving_input_example.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-efab08737a7744e5bca6158ebf1db771
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                artifacts
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\mlruns\1\models\m-efab08737a7744e5bca6158ebf1db771\artifacts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            236 conda.yaml
+-a----        10/19/2026  10:54 PM            297 input_example.json
+-a----        10/19/2026  10:54 PM           1764 MLmodel
+-a----        10/19/2026  10:54 PM           3967 model.pkl
+-a----        10/19/2026  10:54 PM            131 python_env.yaml
+-a----        10/19/2026  10:54 PM             39 registered_model_meta
+-a----        10/19/2026  10:54 PM            106 requirements.txt
+-a----        10/19/2026  10:54 PM            843 serving_input_example.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\models
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM           5014 heart_disease_mlflow_selected_pipeline.joblib
+-a----        10/19/2026  10:54 PM            316 heart_disease_mlflow_selection_metadata.json
+-a----        10/19/2026  10:54 PM           4954 heart_disease_pipeline.joblib
+-a----        10/19/2026  10:54 PM            227 heart_disease_pipeline_metadata.json
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\Notebook
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM         344567 01_EDA_and_Data_Preparation.ipynb
+-a----        10/19/2026  10:54 PM         309232 02_Model_Development_v1.ipynb
+-a----        10/19/2026  10:54 PM         175788 03_MLflow_Experiment_Tracking.ipynb
+-a----        10/19/2026  10:54 PM          36452 04_FastAPI_Model_Serving.ipynb
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\reports
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM            580 baseline_cross_validation_results.csv
+-a----        10/19/2026  10:54 PM           2960 data_split_indices.json
+-a----        10/19/2026  10:54 PM            258 environment_metadata.json
+-a----        10/19/2026  10:54 PM            198 evaluation_metrics.json
+-a----        10/19/2026  10:54 PM            394 hyperparameter_tuning_results.csv
+-a----        10/19/2026  10:54 PM            289 logistic_regression_environment.json
+-a----        10/19/2026  10:54 PM           9749 logistic_regression_grid_search_results.csv
+-a----        10/19/2026  10:54 PM          67888 mlflow_model_comparison.png
+-a----        10/19/2026  10:54 PM           1002 mlflow_run_comparison.csv
+-a----        10/19/2026  10:54 PM            157 model_comparison.csv
+-a----        10/19/2026  10:54 PM            677 permutation_feature_importance.csv
+-a----        10/19/2026  10:54 PM            289 random_forest_environment.json
+-a----        10/19/2026  10:54 PM          38012 random_forest_grid_search_results.csv
+-a----        10/19/2026  10:54 PM            227 test_metrics.json
+-a----        10/19/2026  10:54 PM            230 test_set_model_comparison.csv
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\screenshots
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                mlflow
+-a----        10/19/2026  10:54 PM          52935 age_disease_boxplot.png
+-a----        10/19/2026  10:54 PM          88995 age_distribution.png
+-a----        10/19/2026  10:54 PM          58472 cholesterol_boxplot.png
+-a----        10/19/2026  10:54 PM          50248 class_balance.png
+-a----        10/19/2026  10:54 PM         564444 correlation_heatmap.png
+-a----        10/19/2026  10:54 PM         113627 model_confusion_matrices.png
+-a----        10/19/2026  10:54 PM         140573 model_roc_curves.png
+-a----        10/19/2026  10:54 PM         124226 permutation_feature_importance.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\screenshots\mlflow
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM          66380 logistic_regression_confusion_matrix.png
+-a----        10/19/2026  10:54 PM         104423 logistic_regression_roc_curve.png
+-a----        10/19/2026  10:54 PM          62046 random_forest_confusion_matrix.png
+-a----        10/19/2026  10:54 PM          99478 random_forest_roc_curve.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                __pycache__
+-a----        10/19/2026  10:54 PM           1968 data_preprocessing.py
+-a----        10/19/2026  10:54 PM           1918 evaluate.py
+-a----        10/19/2026  10:54 PM           2158 feature_engineering.py
+-a----        10/19/2026  10:54 PM           1958 predict.py
+-a----        10/19/2026  10:54 PM           4029 train.py
+-a----        10/19/2026  10:54 PM              0 __init__.py
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\src\__pycache__
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM           3294 data_preprocessing.cpython-313.pyc
+-a----        10/19/2026  10:54 PM           2387 feature_engineering.cpython-313.pyc
+-a----        10/19/2026  10:54 PM            138 __init__.cpython-313.pyc
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\ss
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/20/2026  12:15 AM         245190 mlflow_experiment_list.png
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\tests
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2026  10:54 PM                __pycache__
+-a----        10/19/2026  10:54 PM           1587 test_model.py
+-a----        10/19/2026  10:54 PM           1766 test_preprocessing.py
+
+
+    Directory: C:\Users\91620\MLOps-Assignment\tests\__pycache__
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/19/2026  10:54 PM           8082 test_model.cpython-313-pytest-8.4.2.pyc
+-a----        10/19/2026  10:54 PM           7504 test_preprocessing.cpython-313-pytest-8.4.2.pyc
+
+
+PS C:\Users\91620\MLOps-Assignment>
